@@ -45,7 +45,7 @@ export function ResponsiveNavbar({ className }: { className?: string }) {
                 className={cn(
                     'fixed top-0 left-0 w-full z-50 transition-all duration-300 ease-in-out p-5',
                     isScrolled 
-                        ? 'bg-gradient-to-b from-red-900/50 to-red-600/50 backdrop-blur-md shadow-lg' 
+                        ? 'bg-gradient-to-b from-red-900/90 to-black/90 backdrop-blur-md shadow-lg' 
                         : 'bg-transparent',
                     className
                 )}
@@ -151,7 +151,7 @@ export function ResponsiveNavbar({ className }: { className?: string }) {
                     onClick={scrollToTop}
                     className="fixed bottom-6 right-6 z-40 flex items-center justify-center w-14 h-14 rounded-full bg-yellow-500 text-black shadow-lg transition-all duration-300 hover:scale-110 hover:bg-yellow-400"
                 >
-                    <ChevronUp className="w-7 h-7" />
+                    <ChevronUp className="w-6 h-6" />
                 </button>
             )}
         </>

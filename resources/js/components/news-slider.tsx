@@ -48,30 +48,30 @@ export function NewsSlider({ articles, title = "Latest News", subtitle = "Stay u
     }, [currentIndex]);
 
     return (
-        <section className="py-20 bg-gradient-to-t from-red-300 to-red-400">
+        <section className="py-20 bg-gradient-to-bl from-red-300 to-gray-300">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
-                    <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl md:text-5xl">
+                    <h2 className="text-4xl font-bold tracking-tight text-yellow-400 sm:text-4xl md:text-4xl">
                         {title}
                     </h2>
-                    <p className="mt-4 text-xl text-gray-300">
+                    <p className="mt-4 text-xl text-yellow-400 font-bold">
                         {subtitle}
                     </p>
                 </div>
 
                 <div className="relative">
                     {/* Slider Container */}
-                    <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-red-400 to-red-300">
+                    <div className="relative overflow-hidden rounded-2xl  bg-gradient-to-b from-red-700 to-black">
                         <div className="flex transition-transform duration-500 ease-in-out" style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
                             {articles.map((article) => (
                                 <div key={article.id} className="w-full flex-shrink-0">
                                     <div className="flex flex-col lg:flex-row">
                                         {/* Article Image */}
-                                        <div className="w-full lg:w-1/2 h-64 lg:h-96 overflow-hidden">
+                                        <div className="w-auto lg:w-auto h-64 lg:h-90 p-3 overflow-hidden">
                                             <img 
                                                 src={article.image} 
                                                 alt={article.title}
-                                                className="h-full w-full object-cover"
+                                                className="h-full w-full object-cover rounded-2xl"
                                             />
                                         </div>
 

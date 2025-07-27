@@ -16,7 +16,7 @@ export function AboutSection({
     title = "About Giileh Music", 
     subtitle = "Our Story",
     description = "Giileh Music is more than just a record label – we're a movement that celebrates the rich tapestry of musical traditions while embracing the innovations of modern sound. Founded with a passion for authentic expression, we've been at the forefront of blending traditional rhythms with contemporary beats, creating a unique sonic experience that resonates with audiences worldwide.",
-    image = "/assets/images/about-giileh.jpg",
+    image = "/assets/images/hero1.png",
     stats = [
         { icon: Award, number: "50+", label: "Awards Won" },
         { icon: Music, number: "200+", label: "Songs Released" },
@@ -25,13 +25,13 @@ export function AboutSection({
     ]
 }: AboutSectionProps) {
     return (
-        <section className="py-20 bg-gradient-to-b from-red-300 to-red-400">
+        <section className="bg-gradient-to-br from-red-300 to-gray-300 py-20">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
-                    <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl md:text-5xl">
+                    <h2 className="text-4xl font-bold tracking-tight text-yellow-400 sm:text-4xl md:text-4xl">
                         {title}
                     </h2>
-                    <p className="mt-4 text-xl text-white">
+                    <p className="mt-4 text-xl text-yellow-400 font-bold">
                         {subtitle}
                     </p>
                 </div>
@@ -49,13 +49,6 @@ export function AboutSection({
                                 unite cultures, and tell stories that need to be heard. From our humble beginnings in a 
                                 small studio, we've grown into a global platform that champions diverse voices and 
                                 innovative sounds.
-                            </p>
-                            
-                            <p className="text-white leading-relaxed">
-                                Today, we continue to push the boundaries of what's possible in music, collaborating 
-                                with artists from around the world to create experiences that move the soul and inspire 
-                                the spirit. Join us on this incredible journey as we write the next chapter in the 
-                                story of music.
                             </p>
                         </div>
 

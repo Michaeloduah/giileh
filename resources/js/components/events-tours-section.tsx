@@ -38,20 +38,20 @@ export function EventsToursSection({ events, title = "Events & Tours", subtitle 
     };
 
     return (
-        <section className="py-20 bg-gradient-to-b from-red-300 to-red-400">
+        <section className="py-20 bg-gradient-to-br from-red-300 to-gray-300">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
-                    <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl md:text-5xl">
+                    <h2 className="text-4xl font-bold tracking-tight text-yellow-400 sm:text-4xl md:text-4xl">
                         {title}
                     </h2>
-                    <p className="mt-4 text-xl text-gray-300">
+                    <p className="mt-4 text-xl text-yellow-400 font-bold">
                         {subtitle}
                     </p>
                 </div>
 
                 <div className="space-y-6">
                     {events.map((event) => (
-                        <div key={event.id} className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-red-500 to-red-400 p-6 transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl">
+                        <div key={event.id} className="group relative overflow-hidden rounded-2xl  bg-gradient-to-b from-red-700 to-black p-6 transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl">
                             <div className="absolute inset-0 bg-gradient-to-br from-yellow-500/10 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
                             
                             <div className="relative z-10 flex flex-col lg:flex-row items-start lg:items-center gap-6">

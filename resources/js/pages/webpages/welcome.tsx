@@ -19,7 +19,7 @@ export default function Welcome() {
             id: '1',
             title: 'Rhythm of Life',
             artist: 'Giileh',
-            coverImage: '/assets/images/album1.jpg',
+            coverImage: '/assets/images/hero1.png',
             releaseDate: 'March 15, 2024',
             genre: 'Afro-Fusion',
             tracks: 12,
@@ -28,7 +28,7 @@ export default function Welcome() {
             id: '2',
             title: 'Echoes of Tradition',
             artist: 'Giileh',
-            coverImage: '/assets/images/album2.jpg',
+            coverImage: '/assets/images/hero1.png',
             releaseDate: 'January 20, 2024',
             genre: 'World Music',
             tracks: 10,
@@ -37,7 +37,7 @@ export default function Welcome() {
             id: '3',
             title: 'Modern Beats',
             artist: 'Giileh',
-            coverImage: '/assets/images/album3.jpg',
+            coverImage: '/assets/images/hero1.png',
             releaseDate: 'November 8, 2023',
             genre: 'Contemporary',
             tracks: 8,
@@ -46,7 +46,7 @@ export default function Welcome() {
             id: '4',
             title: 'Soul Journey',
             artist: 'Giileh',
-            coverImage: '/assets/images/album4.jpg',
+            coverImage: '/assets/images/hero1.png',
             releaseDate: 'September 12, 2023',
             genre: 'Soul',
             tracks: 14,
@@ -59,7 +59,7 @@ export default function Welcome() {
             id: '1',
             title: 'Dance of the Sun',
             artist: 'Giileh',
-            coverImage: '/assets/images/single1.jpg',
+            coverImage: '/assets/images/hero1.png',
             releaseDate: 'April 1, 2024',
             genre: 'Afro-Pop',
             duration: '3:45',
@@ -68,7 +68,7 @@ export default function Welcome() {
             id: '2',
             title: 'Midnight Groove',
             artist: 'Giileh',
-            coverImage: '/assets/images/single2.jpg',
+            coverImage: '/assets/images/hero1.png',
             releaseDate: 'March 20, 2024',
             genre: 'Jazz-Fusion',
             duration: '4:12',
@@ -77,7 +77,7 @@ export default function Welcome() {
             id: '3',
             title: 'Urban Rhythm',
             artist: 'Giileh',
-            coverImage: '/assets/images/single3.jpg',
+            coverImage: '/assets/images/hero1.png',
             releaseDate: 'February 15, 2024',
             genre: 'Hip-Hop',
             duration: '3:28',
@@ -86,7 +86,7 @@ export default function Welcome() {
             id: '4',
             title: 'Ocean Waves',
             artist: 'Giileh',
-            coverImage: '/assets/images/single4.jpg',
+            coverImage: '/assets/images/hero1.png',
             releaseDate: 'January 30, 2024',
             genre: 'Ambient',
             duration: '5:20',
@@ -102,7 +102,7 @@ export default function Welcome() {
             time: '8:00 PM',
             location: 'New York, NY',
             venue: 'Central Park',
-            image: '/assets/images/event1.jpg',
+            image: '/assets/images/hero1.png',
             ticketPrice: '$45',
             status: 'upcoming',
         },
@@ -113,7 +113,7 @@ export default function Welcome() {
             time: '7:30 PM',
             location: 'London, UK',
             venue: 'Royal Albert Hall',
-            image: '/assets/images/event2.jpg',
+            image: '/assets/images/hero1.png',
             ticketPrice: '£35',
             status: 'upcoming',
         },
@@ -124,7 +124,7 @@ export default function Welcome() {
             time: '9:00 PM',
             location: 'Chicago, IL',
             venue: 'Blue Note Club',
-            image: '/assets/images/event3.jpg',
+            image: '/assets/images/hero1.png',
             ticketPrice: '$25',
             status: 'sold-out',
         },
@@ -135,7 +135,7 @@ export default function Welcome() {
             time: '6:00 PM',
             location: 'Los Angeles, CA',
             venue: 'The Troubadour',
-            image: '/assets/images/event4.jpg',
+            image: '/assets/images/hero1.png',
             ticketPrice: '$30',
             status: 'upcoming',
         },
@@ -149,7 +149,7 @@ export default function Welcome() {
             excerpt:
                 'We are thrilled to announce that our latest album "Rhythm of Life" has won the prestigious Grammy Award for Best World Music Album. This recognition celebrates our commitment to blending traditional and modern sounds.',
             content: 'Full article content here...',
-            image: '/assets/images/news1.jpg',
+            image: '/assets/images/hero1.png',
             author: 'Music Team',
             publishDate: 'March 15, 2024',
             category: 'Awards',
@@ -161,7 +161,7 @@ export default function Welcome() {
             excerpt:
                 'Take an exclusive look at the creative process behind our newest single "Dance of the Sun". From studio sessions to final production, discover how we bring our musical vision to life.',
             content: 'Full article content here...',
-            image: '/assets/images/news2.jpg',
+            image: '/assets/images/hero1.png',
             author: 'Studio Team',
             publishDate: 'April 1, 2024',
             category: 'Behind the Scenes',
@@ -173,7 +173,7 @@ export default function Welcome() {
             excerpt:
                 'Get ready for an unforgettable musical journey as we announce our 2024 World Tour. Spanning 25 countries, this tour will bring our unique sound to fans around the globe.',
             content: 'Full article content here...',
-            image: '/assets/images/news3.jpg',
+            image: '/assets/images/hero1.png',
             author: 'Tour Manager',
             publishDate: 'March 25, 2024',
             category: 'Tour',
@@ -201,19 +201,19 @@ export default function Welcome() {
                 {/* Hero Content */}
                 <div className="relative z-10 flex min-h-screen items-center justify-center">
                     <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
-                        <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl">
+                        <h1 className="text-3xl font-bold tracking-tight text-white sm:text-3xl md:text-3xl lg:text-5xl">
                             <span className="block">Welcome to</span>
                             <span className="block bg-gradient-to-r from-yellow-400 to-yellow-600 bg-clip-text text-transparent">Giileh Music</span>
                         </h1>
-                        <p className="mt-6 text-lg text-gray-300 sm:text-xl md:text-2xl">
+                        <p className="mt-6 text-lg text-gray-300 sm:text-lg md:text-lg">
                             Experience the rhythm of life through our unique blend of traditional and modern sounds
                         </p>
                         <div className="mt-10 flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-y-0 sm:space-x-6">
-                            <button className="group flex items-center space-x-3 rounded-full bg-yellow-500 px-8 py-4 text-lg font-semibold text-black transition-all duration-300 hover:scale-105 hover:bg-yellow-400">
+                            <button className="group flex items-center space-x-3 rounded-full bg-yellow-500 px-4 py-4 text-sm font-semibold text-black transition-all duration-300 hover:scale-105 hover:bg-yellow-400">
                                 <Play className="h-6 w-6" />
                                 <span>Watch Latest Video</span>
                             </button>
-                            <button className="rounded-full border-2 border-yellow-500 px-8 py-4 text-lg font-semibold text-yellow-500 transition-all duration-300 hover:bg-yellow-500 hover:text-black">
+                            <button className="rounded-full border-2 border-yellow-500 px-4 py-4 text-sm font-semibold text-yellow-500 transition-all duration-300 hover:bg-yellow-500 hover:text-black">
                                 Listen Now
                             </button>
                         </div>
@@ -231,16 +231,16 @@ export default function Welcome() {
             </div>
 
             {/* Cards Section */}
-            <div className="bg-gradient-to-t from-red-300 to-red-400 py-20">
+            <div className="bg-gradient-to-bl from-red-300 to-gray-300 py-20">
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div className="mb-16 text-center">
-                        <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl md:text-5xl">Discover Our World</h2>
-                        <p className="mt-4 text-xl text-gray-300">Explore the different aspects of our musical journey</p>
+                        <h2 className="text-4xl font-bold tracking-tight text-yellow-400 sm:text-4xl md:text-4xl">Discover Our World</h2>
+                        <p className="mt-4 text-xl text-yellow-400 font-bold">Explore the different aspects of our musical journey</p>
                     </div>
 
                     <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
                         {/* Card 1 - Latest Album */}
-                        <div className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-red-800 to-red-600 p-8 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+                        <div className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-red-600 to-black p-8 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
                             <div className="absolute inset-0 bg-gradient-to-br from-yellow-500/20 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
                             <div className="relative z-10">
                                 <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-yellow-500/20">
@@ -257,7 +257,7 @@ export default function Welcome() {
                         </div>
 
                         {/* Card 2 - Awards & Recognition */}
-                        <div className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-red-700 to-red-500 p-8 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+                        <div className="group relative overflow-hidden rounded-2xl bg-gradient-to-b from-red-700 to-black p-8 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
                             <div className="absolute inset-0 bg-gradient-to-br from-yellow-500/20 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
                             <div className="relative z-10">
                                 <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-yellow-500/20">
@@ -274,7 +274,7 @@ export default function Welcome() {
                         </div>
 
                         {/* Card 3 - Community */}
-                        <div className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-red-600 to-red-400 p-8 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+                        <div className="group relative overflow-hidden rounded-2xl bg-gradient-to-bl from-red-600 to-black p-8 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
                             <div className="absolute inset-0 bg-gradient-to-br from-yellow-500/20 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
                             <div className="relative z-10">
                                 <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-yellow-500/20">

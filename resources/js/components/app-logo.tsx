@@ -4,7 +4,7 @@ export default function AppLogo() {
     return (
         <>
             <div className="ml-1 grid flex-1 text-left text-sm">
-                <span className="mb-0.5 truncate leading-tight font-semibold text-yellow-500 text-3xl font-[harrington]">Giileh</span>
+                <img src="/assets/images/giileh_logo.png" alt="Giileh Logo" className="w-auto h-20" />
             </div>
         </>
     );

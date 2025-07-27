@@ -20,10 +20,6 @@ export function SocialFab({ className }: SocialFabProps) {
         { name: 'Twitter', icon: Twitter, href: 'https://twitter.com/giilehmusic', color: 'hover:bg-blue-400' },
         { name: 'Instagram', icon: Instagram, href: 'https://instagram.com/giilehmusic', color: 'hover:bg-pink-600' },
         { name: 'YouTube', icon: Youtube, href: 'https://youtube.com/giilehmusic', color: 'hover:bg-red-600' },
-        { name: 'Facebook', icon: Facebook, href: 'https://facebook.com/giilehmusic', color: 'hover:bg-blue-600' },
-        { name: 'Twitter', icon: Twitter, href: 'https://twitter.com/giilehmusic', color: 'hover:bg-blue-400' },
-        { name: 'Instagram', icon: Instagram, href: 'https://instagram.com/giilehmusic', color: 'hover:bg-pink-600' },
-        { name: 'YouTube', icon: Youtube, href: 'https://youtube.com/giilehmusic', color: 'hover:bg-red-600' },
     ];
 
     return (
@@ -59,11 +55,11 @@ export function SocialFab({ className }: SocialFabProps) {
                 {/* Main Social Button */}
                 <button
                     onClick={() => setOpen((v) => !v)}
-                    className={`flex h-14 w-14 items-center justify-center rounded-full bg-yellow-500 text-white shadow-lg transition-all duration-300 hover:scale-110 hover:bg-yellow-400 focus:ring-2 focus:ring-yellow-500 focus:outline-none ${open ? 'animate-spin-slow' : ''}`}
+                    className={`flex h-12 w-12 items-center justify-center rounded-full bg-yellow-500 text-white shadow-lg transition-all duration-300 hover:scale-110 hover:bg-yellow-400 focus:ring-2 focus:ring-yellow-500 focus:outline-none ${open ? 'animate-spin-slow' : ''}`}
                     aria-label={open ? 'Close social links' : 'Open social links'}
                 >
                     <span className={`transition-transform duration-500 ${open ? 'rotate-45' : ''}`}>
-                        <Share2 className="h-7 w-7" />
+                        <Share2 className="h-6 w-6" />
                     </span>
                 </button>
             </div>
